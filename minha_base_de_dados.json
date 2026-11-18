@@ -1,0 +1,59 @@
+{
+  "panificadora": {
+    "nome": "Panificadora Funchal",
+    "endereco": "Rua Funchal, 240 - Bairro Nobre",
+    "whatsapp": "5511999998888",
+    "horarios": {
+      "seg_sex": "06h30 às 20h00",
+      "sab_dom": "07h00 às 19h00",
+      "feriados": "07h30 às 14h00"
+    },
+    "fornadas": ["07h00", "16h00"]
+  },
+  "produtos": [
+    {
+      "id": 1,
+      "categoria": "paes",
+      "nome": "Pão Campanha em Levain",
+      "detalhe": "Fermentação 36h • 650g",
+      "badge": "FORNADA MATINAL",
+      "preco": 24.00
+    },
+    {
+      "id": 2,
+      "categoria": "bolos",
+      "nome": "Croissants Franceses",
+      "detalhe": "Manteiga Francesa • Folhado",
+      "badge": "VIENNOISERIE",
+      "preco": 14.00
+    },
+    {
+      "id": 3,
+      "categoria": "cafeteria",
+      "nome": "Cappuccino Especial Funchal",
+      "detalhe": "Grãos Selecionados • 180ml",
+      "badge": "CAFETERIA",
+      "preco": 12.50
+    },
+    {
+      "id": 4,
+      "categoria": "bolos",
+      "nome": "Bolo Artesanal para Festas",
+      "detalhe": "Receita de Família • 1.2kg",
+      "badge": "CONFEITARIA",
+      "preco": 58.00
+    }
+  ],
+  "encomendas": [
+    {
+      "id": 101,
+      "nome_cliente": "Maria Clara Silveira",
+      "email": "maria.clara@email.com",
+      "telefone": "(11) 98765-4321",
+      "data_retirada": "2026-11-25",
+      "categoria": "paes",
+      "detalhes": "2 Pães Campanha Levain fatiados, 1 Bolo de Cenoura e 4 Croissants.",
+      "status": "pendente"
+    }
+  ]
+}
